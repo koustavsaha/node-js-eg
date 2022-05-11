@@ -70,7 +70,7 @@ spec:
                 exit 0
   workspaces:
   - name: source
-    volumeClaimTemplate:
+    volumeClaimTemplates:
       spec:
         accessModes:
           - ReadWriteOnce
